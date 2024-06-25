@@ -15,11 +15,15 @@ ul{
 
 .df{
     display: flex;
+    
+    
 }
 
 .cl{
     flex-direction: column;
 }
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -32,9 +36,41 @@ nav{
 
 }
 
+.img_tickets{
+    padding: 20px 20px 20px 50px;
+}
+
+
 .tickets{
+    flex-wrap: wrap;
     display: flex;
+    justify-content: space-between;
+    margin: 200px 100px 200px 100px;
+    gap: 20px;
+    
+
 }
 .card{
-    border-radius: 1px white;
+    border: 1px white solid;
+    border-radius: 10px;
+    margin-left: px;
+    width: 49%;
+    background-image: linear-gradient(to right,#ffffff50,#80808050);
+    
+}
+
+.text{
+    margin-right: 150px;
+}
+.text h3{
+    margin-top: 40px ;
+    margin-bottom: 5px;
+}
+
+.text h4{
+    margin: 0 0 0 0;
+}
+
+.text p{
+    margin: 5px 0 0 0 ;
 }
