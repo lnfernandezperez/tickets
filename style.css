@@ -3,6 +3,9 @@
     color: white
 }
 
+a{
+    text-decoration: none;
+}
 body{
     background-image: url(img/mainbackground.png);
     font-family: "Work Sans";
@@ -117,4 +120,21 @@ ul{
 
 .text p{
     margin: 5px 0 0 0 ;
+}
+
+.circleleft{
+
+
+}
+
+.circleright{
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
 }
