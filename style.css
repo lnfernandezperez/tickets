@@ -1,8 +1,11 @@
+
 *{
     color: white
 }
+
 body{
-    background-image: url(img/mainbackground.png)
+    background-image: url(img/mainbackground.png);
+    font-family: "Work Sans";
 }
 ul{
     display: flex;
@@ -23,19 +26,35 @@ ul{
     flex-direction: column;
 }
 
+.header{
+    margin: 0 100px 0 100px;
+   
+}
 
-header{
+.nav{
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    background-image: url(img/Vector\ 9.png);
 }
 
-nav{
+.buttom{
     display: flex;
-
-
+    align-items: center;
+    gap: 10px;
+    border: 1px white solid;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
 }
 
+.text_a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+
+}
 .img_tickets{
     padding: 20px 20px 20px 50px;
 }
