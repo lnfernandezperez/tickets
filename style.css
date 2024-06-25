@@ -45,6 +45,19 @@ ul{
     border-radius: 20px;
     width: 150px;
     height: 35px;
+    
+}
+
+.buttom_a2{
+    display: flex;
+    align-items: center;
+    border: 1px #D7FC6E solid;
+    border-radius: 20px;
+    background-color: #D7FC6E;
+    width: 150px;
+    height: 35px;
+    gap: 15px;
+    color: black;
 }
 
 .text_a1{
@@ -55,6 +68,18 @@ ul{
     margin-bottom: 0;
 
 }
+
+.text_a1 h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.text_a1 p{
+    font-size: 16px;
+    font-weight: 300;
+}
 .img_tickets{
     padding: 20px 20px 20px 50px;
 }
@@ -64,7 +89,7 @@ ul{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    margin: 200px 100px 200px 100px;
+    margin: 60px 100px 200px 100px;
     gap: 20px;
     
 
