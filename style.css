@@ -4,7 +4,37 @@
 body{
     background-image: url(img/mainbackground.png)
 }
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
 
+}
+
+.df{
+    display: flex;
+}
+
+.cl{
+    flex-direction: column;
+}
 header{
+    display: flex;
+    justify-content: space-between;
     background-image: url(img/Vector\ 9.png);
+}
+
+nav{
+    display: flex;
+
+
+}
+
+.tickets{
+    display: flex;
+}
+.card{
+    border-radius: 1px white;
 }
